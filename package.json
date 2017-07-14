@@ -1,0 +1,24 @@
+{
+    "name": "electron-sample",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+        "cls": "./build.sh clean",
+        "dist": "electron-builder -mwl",
+        "pack": "electron-builder --dir",
+        "start": "electron ."
+    },
+    "repository": "https://github.com/tsunghuanghsieh/electron-sample.git",
+    "keywords": [
+        "Electron",
+        "Sample"
+    ],
+    "author": "Tsung-Huang Hsieh",
+    "devDependencies": {
+        "7zip-bin": "^2.1.0",
+        "electron": "~1.6.2",
+        "electron-builder": "^19.16.0"
+    },
+    "dependencies": {}
+}
