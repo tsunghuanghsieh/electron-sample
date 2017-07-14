@@ -27,4 +27,4 @@ yarn dist
 ```
 yarn cls
 ```
-Do NOT use ```yarn clean```
+Do NOT use ```yarn clean``` which "uses a heuristic to identify files that may not be needed from a distributed package and may not be entirely safe" (https://yarnpkg.com/lang/en/docs/cli/clean/).
