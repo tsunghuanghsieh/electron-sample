@@ -11,6 +11,7 @@
         "dev": "electron . --debug",
         "dist": "electron-builder -mwl",
         "pack": "electron-builder --dir",
+        "preinstall": "./githooks/installhooks.sh",
         "start": "electron ."
     },
     "repository": "https://github.com/tsunghuanghsieh/electron-sample.git",
