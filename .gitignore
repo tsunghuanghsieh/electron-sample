@@ -1,5 +1,6 @@
 *.tgz
 dist
+installDockerImg.sh
 node_modules/**
 package-lock.json
 yarn.lock
