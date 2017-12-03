@@ -1,4 +1,5 @@
 *.tgz
+createDockerImg.sh
 dist
 installDockerImg.sh
 node_modules/**
