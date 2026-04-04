@@ -5,9 +5,14 @@
 npm install
 ```
 
+Download `yarn` and set per-project version.
+```
+corepack enable
+yarn set version stable
+```
+
 If you encounter issues with electron-builder, you can reinstall it by running the following commands.
 ```
-brew install yarn
 yarn add electron-builder --ignore-dependencies
 ```
 
@@ -19,6 +24,7 @@ yarn pack
 ```
 
 ### To create a redistributable for Mac, Windows and Linux
+As of 2026/03, it will fail to build mac redistributables, `Symbol not found: (_mkfifoat)` `Expected in: '/usr/lib/libSystem.B.dylib'`, which is in MacOS 13+.
 ```
 yarn dist
 ```
