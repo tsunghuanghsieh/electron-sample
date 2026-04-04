@@ -19,34 +19,34 @@
         "Sample"
     ],
     "devDependencies": {
-        "7zip-bin": "^2.1.0",
+        "7zip-bin": "^5.2.0",
         "@babel/core": "^7.5.5",
         "babel-cli": "^6.23.0",
         "babel-core": "^6.23.0",
         "babel-loader": "^8.0.6",
-        "babel-preset-env": "^1.6.0",
-        "clean-webpack-plugin": "^0.1.16",
-        "css-loader": "^0.15.1",
-        "electron": "~5.0.7",
-        "electron-builder": "^21.1.1",
-        "html-webpack-plugin": "^3.2.0",
+        "babel-preset-env": "^0.0.0",
+        "clean-webpack-plugin": "^4.0.0",
+        "css-loader": "^7.1.4",
+        "electron": "41.1.1",
+        "electron-builder": "26.8.1",
+        "html-webpack-plugin": "^5.6.6",
         "less": "^3.9.0",
-        "style-loader": "^0.12.3",
-        "tsunghuanghsieh-utils": "tsunghuanghsieh/tsunghuanghsieh-utils",
-        "webpack": "^4.36.1"
+        "style-loader": "^4.0.0",
+        "webpack": "^5.105.4"
     },
     "dependencies": {
         "es6-module-transpiler": "^0.10.0",
-        "material-ui": "^0.18.7",
-        "react": "^15.6.1",
-        "react-dom": "^15.6.1",
+        "material-ui": "^0.20.0",
+        "react": "^15.4.0",
+        "react-dom": "^15.4.0",
         "react-tap-event-plugin": "^2.0.1",
         "react-toolbox": "^2.0.0-beta.13",
-        "react-transition-group": "2.2.0"
+        "react-transition-group": "^2.9.0"
     },
     "babel": {
         "presets": [
             "env"
         ]
-    }
+    },
+    "packageManager": "yarn@4.13.0"
 }
